@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(104, 113, 96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+    position:absolute;
+    left: 0; right: 0;
+    top:0px;
+    background-color: antiquewhite;
+    padding: 2rem;
+}
+
+.container{
+    display: grid;
+    gap: 10rem;    
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    margin: 100px;
+    padding: 2px;
+    
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px 5px 5px 5px ;
+    border: 2px;
+    border-style: solid  ;
+    border-color: antiquewhite;
+    padding: 8px;
+    margin: 15;
+    overflow: hidden;
+    background-color: rgb(236, 206, 129);
+}
+
+img{
+    width: 100%;
+     border-radius: 15px 5px 5px 5px;
+  
+    
+}
+
+.card-content{
+    padding: 10px;
+}
+
+
+.footer{
+    bottom: 0px;
+    padding: 2rem;
+}
+
+/* @media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}  */
+
+/* QfmR-Ftvh-bzYs-YWto */
+
