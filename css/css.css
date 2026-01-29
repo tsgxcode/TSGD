@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(104, 113, 96);
+    background-color: rgb(194, 207, 182);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -8,41 +8,41 @@ body{
     position:absolute;
     left: 0; right: 0;
     top:0px;
-    background-color: antiquewhite;
+    background-color:  rgb(250, 235, 215, 40%) ;
     padding: 2rem;
 }
 
 .container{
-    display: grid;
-    gap: 10rem;    
+    position: relative;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 2fr));
     max-width: 1100px;
-    margin: 30px auto;
-   
-    padding: 2px;
+    margin: 20% auto;
     
 }
 
-.card {
-    grid-template-columns: repeat(3, 1fr);
+.item {
     border-radius: 15px 5px 5px 5px ;
     border: 2px;
+    background: #efcb9c;
     border-style: solid  ;
-    border-color: antiquewhite;
-    padding: 8px;
-   
-    background-color: rgb(236, 206, 129);
+    border-color: #efcb9c;
+    padding: 1rem;
+    text-align: center;
 }
 
-img{
+.item-grid {
+    display: grid;
+   
+    gap: 5px;
+
+}
+
+/* img{
     width: 100%;
      border-radius: 15px 5px 5px 5px;
   
     
-}
-
-.card-content{
-    padding: 10px;
-}
+} */
 
 
 .footer{
