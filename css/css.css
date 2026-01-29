@@ -15,21 +15,21 @@ body{
 .container{
     display: grid;
     gap: 10rem;    
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    margin: 100px;
+    max-width: 1100px;
+    margin: 30px auto;
+   
     padding: 2px;
     
 }
 
 .card {
-    width: 300px;
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 15px 5px 5px 5px ;
     border: 2px;
     border-style: solid  ;
     border-color: antiquewhite;
     padding: 8px;
-    margin: 15;
-    overflow: hidden;
+   
     background-color: rgb(236, 206, 129);
 }
 
